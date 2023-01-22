@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+  margin-top: 150px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+}
+
+.header{
+  color: #FFA500;
+}
+.bot-card {
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  padding: 20px 10px;
+  margin: 10px;
+  border: 1px solid #FFA500;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #FFA500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 55px;
+}
+
+.bot-card:hover {
+  transform: scale(1.05);
+}
+
+.bot-card img {
+  border-radius: 50% ;
+  width: 150px;
+  height: 150px;
+  object-fit: cover ;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.bot-card h2 {
+  margin-top: 70px;
+  color: white;
+}
+
+.bot-card p {
+  margin-top: 10px;
+  color: white;
+}
+
