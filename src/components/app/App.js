@@ -1,8 +1,8 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
 import BotCollection from "../bot/BotCollection";
+import Header from "../header/Header";
 import MyBotArmy from "../mybotarmy/MyBotArmy";
-import Navbar from "../navbar/NavBar";
+
 
 
 
@@ -12,12 +12,8 @@ import Navbar from "../navbar/NavBar";
 function App() {
   return (
     <div className="App">
-    
+    <Header />
     <BotCollection />
-    <MyBotArmy />
-    <Navbar />
-   
-   
     </div>
   );
 }

@@ -30,7 +30,6 @@ function BotCollection() {
           <p>{bot.bot_class}</p>
           <p id="phrase">catchphrase : {bot.catchphrase}</p>
           <button className="btn">AddToMyArmy</button>
-          {/* <button className="bt">Remove</button> */}
         </div>
       ))}
       <MyBotArmy selectedBot={selectedBot} />
