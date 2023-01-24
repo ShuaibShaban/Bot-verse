@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+/* top navbar */
+.bot-card h2 {
+  margin-top: 4px;
+  color: white;
+}
+
+.bot-card p {
+  margin-top: 10px;
+  color: white;
+}
+
+.topNavBar {
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.topNavBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNavBar a:hover {
+  background-color: #FFA500;
+  color: black;
+}
+
+.topNavBar a.active {
+  background-color: #FFA500;
+  color: white;
+}
 body{
   margin-top: 150px;
   font-family: 'Quicksand', sans-serif;
@@ -11,8 +50,8 @@ body{
 }
 .bot-card {
   display: inline-block;
-  height: 300px;
-  width: 200px;
+  height: 430px;
+  width: 250px;
   padding: 20px 10px;
   margin: 10px;
   border: 1px solid #FFA500;
@@ -20,7 +59,23 @@ body{
   box-shadow: 2px 2px 10px #FFA500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  margin: 55px;
+  margin: 65px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn {
+  background-color: #FFA500;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 17px;
+  display: block;
+  margin: 0 auto;
+}
+
+#phrase{
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .bot-card:hover {
@@ -36,13 +91,4 @@ body{
   background-color: white;
 }
 
-.bot-card h2 {
-  margin-top: 70px;
-  color: white;
-}
-
-.bot-card p {
-  margin-top: 10px;
-  color: white;
-}
 

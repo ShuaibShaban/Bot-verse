@@ -6,12 +6,20 @@ function MyBotArmy({ selectedBot }) {
   useEffect(() => {
     if (selectedBot && !army.find(bot => bot.id === selectedBot.id)) {
       setArmy([...army, selectedBot]);
+      fetch('https://api.example.com/bot/enlist', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ bot: selectedBot })
+      });
     }
   }, [selectedBot]);
 
   function handleClick(bot) {
     const newArmy = army.filter(b => b.id !== bot.id);
     setArmy(newArmy);
+    fetch(`https://api.example.com/bot/remove/${bot.id}`, {
+      method: 'DELETE'
+    });
   }
 
   return (

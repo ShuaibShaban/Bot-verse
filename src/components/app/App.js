@@ -1,5 +1,9 @@
 import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import BotCollection from "../bot/BotCollection";
+import MyBotArmy from "../mybotarmy/MyBotArmy";
+import Navbar from "../navbar/NavBar";
+
 
 
 
@@ -8,7 +12,12 @@ import BotCollection from "../bot/BotCollection";
 function App() {
   return (
     <div className="App">
+    
     <BotCollection />
+    <MyBotArmy />
+    <Navbar />
+   
+   
     </div>
   );
 }
