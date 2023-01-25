@@ -1,7 +1,6 @@
 import React from "react";
 import BotCollection from "../bot/BotCollection";
 import Header from "../header/Header";
-import MyBotArmy from "../mybotarmy/MyBotArmy";
 
 
 

@@ -145,4 +145,12 @@ body{
 		4px -10px 10px yellow; }
 }
 
+.card-img-top{
+	border-radius: 50% ;
+	width: 150px;
+	height: 150px;
+	object-fit: cover ;
+	border: 2px solid black;
+	background-color: white;	
+}
 
